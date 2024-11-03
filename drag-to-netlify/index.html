@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            "radical-red": '#ff425b',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="flex justify-center h-full items-center">
+    <div class="text-radical-red bg-white rounded-lg border-radical-red border items-center flex flex-col md:flex-row hover:scale-105 hover:shadow-lg transition-all">
+        <h2 class="p-6 md:text-3xl text-lg font-bold lg:text-6xl md:border-b-0 border-b md:border-r border-radical-red">Secondary Heading</h2>
+        <p class="md:text-lg h-full lg:text-3xl p-6">This is a paragraph</p>
+    </div>
+</body>
+</html>

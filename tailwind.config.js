@@ -1,0 +1,1 @@
+// This file is required for the "Tailwind CSS IntelliSense" plugin to work
